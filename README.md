@@ -20,6 +20,14 @@ $ pip install -r requirements.txt
 $ pip install -e .
 ```
 
+## Viewing notebooks
+
+To view the notebook, run
+```
+ipython kernel install --user --name=.venv
+```
+after installing the requirements. This will install a kernel inside of the virtual environment.
+
 **(Note: at the moment [blspy](https://github.com/Chia-Network/bls-signatures) may require you to have [CMake](https://cmake.org/install/) installed as well, though this dependency should be temporary)**
 
 ### QR Code Setup
